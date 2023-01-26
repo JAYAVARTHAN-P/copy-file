@@ -23,13 +23,15 @@ Run the code ,it will copy from the file to file2
 Open the file2.txt it will copy the input  and display
 
 ## PROGRAM:
+```
 DEVELOPED BY:JAYAVARTHAN P
 REG.NO:22008689
-```
+
  with open('f1.txt','r')as firstfile:
      with open('f2.txt','a')as secondfile:
          for linein firstfile:
                secondfile.erite(line)
+```
 
 ### OUTPUT:
 
